@@ -6,6 +6,10 @@ export default defineConfig({
   plugins: [
     qwikVite({
       csr: true,
+      // Indispensable para que los chunks del contador carguen en subdirectorios
+      vendorRoots: [],
+      qwikCity: false,
+      base: '/qwik/build/',
     }),
   ],
 })
