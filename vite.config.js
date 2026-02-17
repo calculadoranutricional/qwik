@@ -2,11 +2,12 @@ import { defineConfig } from 'vite'
 import { qwikVite } from '@builder.io/qwik/optimizer'
 
 export default defineConfig({
-  base: '/qwik/',
+  base: '/qwik/', 
   plugins: [
     qwikVite({
       csr: true,
-      base: '/qwik/build/',
+      // Esta es la ruta exacta donde GitHub Pages guardará los trozos del contador
+      base: '/qwik/build/', 
     }),
   ],
 })
