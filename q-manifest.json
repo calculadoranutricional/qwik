@@ -1,6 +1,6 @@
 {
 	"version": "1",
-	"manifestHash": "t40m7t",
+	"manifestHash": "rul0f3",
 	"options": {
 		"target": "client",
 		"buildMode": "production",
@@ -10,7 +10,7 @@
 	},
 	"core": "../assets/core.min-BPS5Icob.js",
 	"preloader": "../assets/preloader-Bns9QiKi.js",
-	"bundleGraphAsset": "assets/bundle-graph-DZWkElfx.json",
+	"bundleGraphAsset": "assets/bundle-graph-CvDHNTqi.json",
 	"injections": [
 		{
 			"tag": "style",
@@ -23,7 +23,7 @@
 	],
 	"mapping": {
 		"s_gUIWcIzHI38": "../assets/app.jsx_App_component_Fragment_div_button_onClick_gUIWcIzHI38-B4edL950.js",
-		"s_vBdtONNNfT0": "../assets/app.jsx_App_component_vBdtONNNfT0-DJZ0un-q.js"
+		"s_vBdtONNNfT0": "../assets/app.jsx_App_component_vBdtONNNfT0-CY5cln2N.js"
 	},
 	"bundles": {
 		"../assets/app.jsx_App_component_Fragment_div_button_onClick_gUIWcIzHI38-B4edL950.js": {
@@ -40,7 +40,7 @@
 			],
 			"interactivity": 5
 		},
-		"../assets/app.jsx_App_component_vBdtONNNfT0-DJZ0un-q.js": {
+		"../assets/app.jsx_App_component_vBdtONNNfT0-CY5cln2N.js": {
 			"size": 2321,
 			"total": 49534,
 			"imports": [
@@ -68,7 +68,7 @@
 			],
 			"interactivity": 0
 		},
-		"../assets/index-VkOwQQpB.js": {
+		"../assets/index-DeRXIQ7H.js": {
 			"size": 301,
 			"total": 47514,
 			"imports": [
@@ -76,7 +76,7 @@
 				"../assets/preload-helper-EBgbMKXf.js"
 			],
 			"dynamicImports": [
-				"../assets/app.jsx_App_component_vBdtONNNfT0-DJZ0un-q.js"
+				"../assets/app.jsx_App_component_vBdtONNNfT0-CY5cln2N.js"
 			],
 			"origins": [
 				"index.html",
@@ -117,7 +117,7 @@
 		"index.html": {
 			"size": 465
 		},
-		"assets/bundle-graph-DZWkElfx.json": {
+		"assets/bundle-graph-CvDHNTqi.json": {
 			"name": "bundle-graph.json",
 			"size": 20
 		}
