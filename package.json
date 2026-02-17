@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "build.server": "qwik check-client src dist && vite build -c adapters/static/vite.config.ts",
+    "build.server": "qwik check-client src dist && vite build -c adapters/static/vite.config.js",
     "dev": "vite",
     "preview": "serve dist"
   },
