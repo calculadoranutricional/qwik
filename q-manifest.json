@@ -1,0 +1,162 @@
+{
+	"version": "1",
+	"manifestHash": "rul0f3",
+	"options": {
+		"target": "client",
+		"buildMode": "production",
+		"entryStrategy": {
+			"type": "smart"
+		}
+	},
+	"core": "../assets/core.min-BPS5Icob.js",
+	"preloader": "../assets/preloader-Bns9QiKi.js",
+	"bundleGraphAsset": "assets/bundle-graph-CvDHNTqi.json",
+	"injections": [
+		{
+			"tag": "style",
+			"location": "head",
+			"attributes": {
+				"data-src": "/qwik/assets/index-Cf7fT7cG.css",
+				"dangerouslySetInnerHTML": ":root{font-family:system-ui,Avenir,Helvetica,Arial,sans-serif;line-height:1.5;font-weight:400;color-scheme:light dark;color:#ffffffde;background-color:#242424;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}a{font-weight:500;color:#646cff;text-decoration:inherit}a:hover{color:#535bf2}body{margin:0;display:flex;place-items:center;min-width:320px;min-height:100vh}h1{font-size:3.2em;line-height:1.1}button{border-radius:8px;border:1px solid transparent;padding:.6em 1.2em;font-size:1em;font-weight:500;font-family:inherit;background-color:#1a1a1a;cursor:pointer;transition:border-color .25s}button:hover{border-color:#646cff}button:focus,button:focus-visible{outline:4px auto -webkit-focus-ring-color}@media(prefers-color-scheme:light){:root{color:#213547;background-color:#fff}a:hover{color:#747bff}button{background-color:#f9f9f9}}#app{max-width:1280px;margin:0 auto;padding:2rem;text-align:center}.logo{height:6em;padding:1.5em}.logo:hover{filter:drop-shadow(0 0 2em #646cffaa)}.logo.qwik:hover{filter:drop-shadow(0 0 2em #673ab8aa)}.card{padding:2em}.read-the-docs{color:#888}\n"
+			}
+		}
+	],
+	"mapping": {
+		"s_gUIWcIzHI38": "../assets/app.jsx_App_component_Fragment_div_button_onClick_gUIWcIzHI38-B4edL950.js",
+		"s_vBdtONNNfT0": "../assets/app.jsx_App_component_vBdtONNNfT0-CY5cln2N.js"
+	},
+	"bundles": {
+		"../assets/app.jsx_App_component_Fragment_div_button_onClick_gUIWcIzHI38-B4edL950.js": {
+			"size": 147,
+			"total": 46101,
+			"imports": [
+				"../assets/core.min-BPS5Icob.js"
+			],
+			"origins": [
+				"src/app.jsx_App_component_Fragment_div_button_onClick_gUIWcIzHI38.js"
+			],
+			"symbols": [
+				"s_gUIWcIzHI38"
+			],
+			"interactivity": 5
+		},
+		"../assets/app.jsx_App_component_vBdtONNNfT0-CY5cln2N.js": {
+			"size": 2321,
+			"total": 49534,
+			"imports": [
+				"../assets/core.min-BPS5Icob.js",
+				"../assets/preload-helper-EBgbMKXf.js"
+			],
+			"dynamicImports": [
+				"../assets/app.jsx_App_component_Fragment_div_button_onClick_gUIWcIzHI38-B4edL950.js"
+			],
+			"origins": [
+				"../../../../../../vite.svg",
+				"src/app.jsx_App_component_vBdtONNNfT0.js",
+				"src/assets/qwik.svg"
+			],
+			"symbols": [
+				"s_vBdtONNNfT0"
+			],
+			"interactivity": 2
+		},
+		"../assets/core.min-BPS5Icob.js": {
+			"size": 45954,
+			"total": 45954,
+			"origins": [
+				"node_modules/.pnpm/@builder.io+qwik@1.19.0_vite@7.3.1/node_modules/@builder.io/qwik/dist/core.min.mjs"
+			],
+			"interactivity": 0
+		},
+		"../assets/index-DeRXIQ7H.js": {
+			"size": 301,
+			"total": 47514,
+			"imports": [
+				"../assets/core.min-BPS5Icob.js",
+				"../assets/preload-helper-EBgbMKXf.js"
+			],
+			"dynamicImports": [
+				"../assets/app.jsx_App_component_vBdtONNNfT0-CY5cln2N.js"
+			],
+			"origins": [
+				"index.html",
+				"src/app.css",
+				"src/app.jsx",
+				"src/index.css",
+				"src/main.jsx"
+			],
+			"interactivity": 0
+		},
+		"../assets/preload-helper-EBgbMKXf.js": {
+			"size": 1259,
+			"total": 1259,
+			"interactivity": 0
+		},
+		"../assets/preloader-Bns9QiKi.js": {
+			"size": 2490,
+			"total": 2490,
+			"origins": [
+				"node_modules/.pnpm/@builder.io+qwik@1.19.0_vite@7.3.1/node_modules/@builder.io/qwik/dist/preloader.mjs"
+			],
+			"interactivity": 0
+		},
+		"../assets/qwikloader-naDMFAHy.js": {
+			"size": 3100,
+			"total": 3100,
+			"origins": [
+				"node_modules/.pnpm/@builder.io+qwik@1.19.0_vite@7.3.1/node_modules/@builder.io/qwik/dist/qwikloader.js"
+			],
+			"interactivity": 0
+		}
+	},
+	"assets": {
+		"assets/index-Cf7fT7cG.css": {
+			"name": "index.css",
+			"size": 1156
+		},
+		"index.html": {
+			"size": 465
+		},
+		"assets/bundle-graph-CvDHNTqi.json": {
+			"name": "bundle-graph.json",
+			"size": 20
+		}
+	},
+	"symbols": {
+		"s_gUIWcIzHI38": {
+			"displayName": "app.jsx_App_component_Fragment_div_button_onClick",
+			"hash": "gUIWcIzHI38",
+			"ctxKind": "eventHandler",
+			"ctxName": "onClick$",
+			"captures": true,
+			"canonicalFilename": "app.jsx_App_component_Fragment_div_button_onClick_gUIWcIzHI38",
+			"parent": "s_vBdtONNNfT0",
+			"origin": "app.jsx",
+			"loc": [
+				601,
+				620
+			]
+		},
+		"s_vBdtONNNfT0": {
+			"displayName": "app.jsx_App_component",
+			"hash": "vBdtONNNfT0",
+			"ctxKind": "function",
+			"ctxName": "component$",
+			"captures": false,
+			"canonicalFilename": "app.jsx_App_component_vBdtONNNfT0",
+			"origin": "app.jsx",
+			"loc": [
+				183,
+				864
+			]
+		}
+	},
+	"qwikLoader": "../assets/qwikloader-naDMFAHy.js",
+	"platform": {
+		"vite": "",
+		"rollup": "4.57.1",
+		"env": "node",
+		"os": "android",
+		"node": "25.3.0"
+	}
+}
