@@ -3,9 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "homepage": "https://calculadoranutricional.github.io/qwik/",
-  "homepage": "https://calculadoranutricional.github.io/qwik/",
-  "homepage": "https://calculadoranutricional.github.io/qwik/",
-  "homepage": "https://calculadoranutricional.github.io/qwik/",
   "type": "module",
   "scripts": {
     "build": "vite build",
