@@ -2,14 +2,17 @@ import { defineConfig } from 'vite'
 import { qwikVite } from '@builder.io/qwik/optimizer'
 
 export default defineConfig({
-  base: '/qwik/',
+  // Base para Vite (activos estáticos)
+  base: '/qwik/', 
   plugins: [
     qwikVite({
       csr: true,
-      // Indispensable para que los chunks del contador carguen en subdirectorios
-      vendorRoots: [],
-      qwikCity: false,
+      // Forzamos a Qwik a usar la ruta completa para el build
       base: '/qwik/build/',
     }),
   ],
+  build: {
+    // Aseguramos que los assets se generen en la carpeta correcta
+    outDir: 'dist',
+  }
 })
