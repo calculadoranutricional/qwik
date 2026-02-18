@@ -1,0 +1,1 @@
+import{b as t,L as o,q as m,A as r}from"./core.min-BPS5Icob.js";import{_}from"./preload-helper-D8_b-Rn0.js";import"./preloader-Bns9QiKi.js";const p=t(o(()=>_(()=>import("./app.jsx_App_component_vBdtONNNfT0-DpRjuwmC.js"),[],import.meta.url),"s_vBdtONNNfT0"));m(document.getElementById("app"),r(p,null,3,"85_0"));
